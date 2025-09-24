@@ -1,0 +1,10 @@
+import React from 'react'
+import style from './Home.module.scss'
+import Slider from '../../components/slider/Slider'
+const home = () => {
+  return (
+    <div><Slider/></div>
+  )
+}
+
+export default home
