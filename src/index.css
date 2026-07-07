@@ -2,21 +2,21 @@
 
 :root {
   --font-family: "Poppins", sans-serif;
-  --dark-blue: #0a1930;
-  --light-blue: #1f93ff;
+  --dark-blue: #141414;
+  --light-blue: #1d6f68;
 
   --color-white: #fff;
-  --color-dark: #333;
+  --color-dark: #141414;
 
-  --color-grey: #eee;
-  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --color-grey: #f2f5f8;
+  --box-shadow: 0 18px 45px rgba(20, 20, 20, 0.1);
 
-  --color-purple: #9d0191;
-  --color-orange: #ff7722;
+  --color-purple: #7a4cff;
+  --color-orange: #ef5b45;
 
-  --color-primary: #007bff;
-  --color-success: #28a745;
-  --color-danger: orangered;
+  --color-primary: #1d6f68;
+  --color-success: #239a6b;
+  --color-danger: #ef5b45;
 }
 
 * {
@@ -32,6 +32,17 @@ html {
 
 body {
   font-family: var(--font-family);
+  background: #f7f8fb;
+  color: var(--color-dark);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
 }
 
 section {
@@ -429,5 +440,4 @@ a {
 
 a:hover {
   color: var(--color-dark);
-  font-size: 1.5rem;
 }
